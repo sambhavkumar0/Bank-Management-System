@@ -8,12 +8,10 @@ import java.awt.event.ActionListener;
 public class Login extends JFrame implements ActionListener
 {
     JLabel label1,label2,label3;
-
     JTextField textField2;
-
-    JPasswordField passwordField2;
-
+    JPasswordField passwordField3;
     JButton button1,button2,button3;
+
     Login()
     {
         super("Banking Management System ");
@@ -55,10 +53,12 @@ public class Login extends JFrame implements ActionListener
         label3.setFont(new Font("Ralway",Font.BOLD,30));
         label3.setBounds(150,250,375,30);
         add(label3);
-        passwordField2 = new JPasswordField(15);
-        passwordField2.setBounds(325,250,230,30);
-        passwordField2.setFont(new Font("Arial",Font.BOLD,14));
-        add(passwordField2);
+       
+
+        passwordField3 = new JPasswordField(15);
+        passwordField3.setBounds(325,250,230,30);
+        passwordField3.setFont(new Font("Arial",Font.BOLD,14));
+        add(passwordField3);
 
         button1 = new JButton("SIGN IN");
         button1.setFont(new Font("Arial",Font.BOLD,14));
@@ -118,7 +118,8 @@ public class Login extends JFrame implements ActionListener
             }
             else if(e.getSource()==button2)
             {
-
+                textField2.setText("");
+                passwordField3.setText("");
             }
             else if(e.getSource()==button3)
             {
