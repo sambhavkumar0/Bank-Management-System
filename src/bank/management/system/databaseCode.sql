@@ -11,3 +11,6 @@ select * from signupthree;
 
 create table login(form_no varchar(30),card_number varchar(50),pin varchar(30));
 select * from login;
+
+create table bank(pin varchar(10),date varchar(50),type varchar(20),amount varchar(20));
+select * from bank;
