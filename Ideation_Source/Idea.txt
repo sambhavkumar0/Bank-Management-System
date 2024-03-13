@@ -1,0 +1,3 @@
+This was the ideation stage of what i wanted to build .
+this is a simple bank application using java that took user info manually and gave user information by taking their choice as input.
+this is a simple menu-driven java application with no implementation of GUI.
